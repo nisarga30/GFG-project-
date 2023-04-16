@@ -1,0 +1,83 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "symtoms",
+        "patterns": [
+          "Which symtoms do you have?",
+          "What kinds of symtoms are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We provide diseases based ou your symtoms",
+          "We have special doctors around your area based on your symtoms and disaese"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "Features",
+        "patterns": [
+          "we can detect your disease based on your symtoms",
+          "we can also suggest nearby hospitals and best doctors for treatment depending on the symtoms",
+          "we also store your data for future use and prevention of diesaes and our patients can lead a happy life."
+        ],
+        "responses": [
+          "all the above features take maximum of 5 minutes."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "There is always hope beyond you see so live ur life happily.",
+          "live in present and stay in it future will automatically become easy and great."
+        ]
+      }
+    ]
+  }
